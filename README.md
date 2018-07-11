@@ -45,3 +45,4 @@ twitter = twitter_login(credId=1 , db=db, callback_endpoint='/example-endpoint')
 ##### User details will be stored in 'user_details' table
 
 ## BOOM! Twitter authorization IS DONE!! WITH ONLY 4-5 LINES OF CODE 😁
+## Support for google and facebook coming soon!
