@@ -18,7 +18,7 @@ pip install twitauth
 
 from twitauth.twitter import twitter_login
 
-# Then initialize your sqlalchemy db object with your flask application
+# NOTE: first initialize your sqlalchemy db object with your flask application
 
 
 twitter = twitter_login(credId=None , db=db, callback_endpoint='/example-endpoint')
